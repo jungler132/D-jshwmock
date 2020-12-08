@@ -117,7 +117,7 @@ const achivmentsMock = [
     },
     },
     ]
-   /* let result1 = []
+    let result1 = []
     let result2 = []
     let result3 = []
     let main = achivmentsMock.map(all =>{
@@ -136,14 +136,14 @@ console.log(result1)
 console.log(`2) Вывести список всех груп и под ним подгруп где isActive=true `)
 console.log(result2)
 console.log(`3) Вывести список всех груп и под ним подгруп где progress-> maxposition >=5`)
-console.log(result3)*/
+console.log(result3)
 
 
-var mainObj = {}
+// var mainObj = {}
 
-var main = achivmentsMock.map(lib => {
+// var main = achivmentsMock.map(lib => {
     
-    mainObj = Object.assign(lib.id)
-})
+//     mainObj = Object.assign(lib.id)
+// })
 
-console.log(mainObj)
+// console.log(mainObj)
